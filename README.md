@@ -1,4 +1,5 @@
 
+
 # 🧬 ML_Cancer_Predict
 
 Predicción de cáncer de mama utilizando algoritmos de Machine Learning con el conjunto de datos de diagnóstico de cáncer de mama de Wisconsin (WDBC). Este proyecto demuestra un pipeline completo de aprendizaje automático, desde el análisis exploratorio hasta la evaluación de modelos, con especial enfoque en la clasificación de tumores como **benignos** o **malignos**.
@@ -13,6 +14,8 @@ Predicción de cáncer de mama utilizando algoritmos de Machine Learning con el 
 - [🧪 Resultados](#-resultados)
 - [▶️ Cómo Ejecutarlo](#️-cómo-ejecutarlo)
 - [📄 Licencia](#-licencia)
+- [✨ Contribuciones](#-contribuciones)
+- [📬 Contacto](#-contacto)
 
 ---
 
@@ -37,6 +40,8 @@ Se utiliza el dataset **Breast Cancer Wisconsin Diagnostic** disponible en `skle
 - Pandas & NumPy
 - Matplotlib & Seaborn
 - Scikit-learn
+- XGBoost
+- CatBoost
 - Jupyter Notebooks
 
 ---
@@ -45,16 +50,16 @@ Se utiliza el dataset **Breast Cancer Wisconsin Diagnostic** disponible en `skle
 
 Los modelos muestran un alto desempeño, destacando en particular:
 
-| Modelo       | Accuracy | F1-Score |
-|--------------|----------|----------|
-| XGBost | 97.37%    | 96.30     |
-| Random Forest| 97.337%    | 96.30     |
-| CatBost          | 96.49%    | 95.00     |
+| Modelo        | Accuracy | F1-Score |
+|---------------|----------|----------|
+| XGBoost       | 97.37%   | 96.30    |
+| Random Forest | 97.34%   | 96.30    |
+| CatBoost      | 96.49%   | 95.00    |
 
-> ⚠️ *Los resultados pueden variar ligeramente dependiendo del random state y parámetros utilizados.*
+**Mejor resultado - XGBoost:**
 
-el mejor resultado XGBost
-           precision    recall  f1-score   support
+```
+              precision    recall  f1-score   support
 
            B       0.96      1.00      0.98        72
            M       1.00      0.93      0.96        42
@@ -62,6 +67,10 @@ el mejor resultado XGBost
     accuracy                           0.97       114
    macro avg       0.98      0.96      0.97       114
 weighted avg       0.97      0.97      0.97       114
+```
+
+> ⚠️ *Los resultados pueden variar ligeramente dependiendo del random state y los hiperparámetros utilizados.*
+
 ---
 
 ## ▶️ Cómo Ejecutarlo
@@ -101,5 +110,5 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## 📬 Contacto
 
-Desarrollado por [Borja Barber](https://github.com/borjabarber)  
-📧 borjabarber[at]email.com
+📧 borjagbarber@gmail.com 
+
