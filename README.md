@@ -2,7 +2,7 @@
 
 # 🧬 ML_Cancer_Predict
 
-Predicción de cáncer de utilizando algoritmos de Machine Learning con el conjunto de datos de diagnóstico de cáncer de Wisconsin (WDBC). Este proyecto demuestra un flujo completo de aprendizaje automático, desde el análisis exploratorio hasta la evaluación de modelos, con especial enfoque en la clasificación de tumores como **benignos** o **malignos**.
+Predicción de cáncer de utilizando algoritmos de Machine Learning con el conjunto de datos de diagnóstico de cáncer de YBIFoundation. Este proyecto demuestra un flujo completo de aprendizaje automático, desde el análisis exploratorio hasta la evaluación de modelos, con especial enfoque en la clasificación de tumores como **benignos** o **malignos**.
 
 ---
 
@@ -27,7 +27,7 @@ Desarrollar y evaluar modelos de Machine Learning capaces de clasificar correcta
 
 ## 📊 Dataset
 
-Se utiliza el dataset **Breast Cancer Wisconsin Diagnostic** disponible en `sklearn.datasets`. Contiene 569 instancias con 30 características numéricas calculadas a partir de imágenes digitalizadas de núcleos celulares.
+Se utiliza el dataset **YBIFoundation** disponible en ` https://github.com/YBIFoundation/Dataset/raw/main/Cancer.csv`. 
 
 - **Características**: radio, textura, perímetro, área, suavidad, simetría, etc.
 - **Clase objetivo**: `diagnosis` → *M* (Maligno), *B* (Benigno)
