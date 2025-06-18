@@ -27,7 +27,7 @@ Desarrollar y evaluar modelos de Machine Learning capaces de clasificar correcta
 
 ## 📊 Dataset
 
-Se utiliza el dataset **YBIFoundation** disponible en ` https://github.com/YBIFoundation/Dataset/raw/main/Cancer.csv`. 
+Se utiliza el dataset **YBIFoundation** disponible en [YBIFoundation](https://github.com/YBIFoundation/Dataset/raw/main/Cancer.csv)
 
 - **Características**: radio, textura, perímetro, área, suavidad, simetría, etc.
 - **Clase objetivo**: `diagnosis` → *M* (Maligno), *B* (Benigno)
