@@ -2,7 +2,7 @@
 
 # 🧬 ML_Cancer_Predict
 
-Predicción de cáncer de mama utilizando algoritmos de Machine Learning con el conjunto de datos de diagnóstico de cáncer de mama de Wisconsin (WDBC). Este proyecto demuestra un pipeline completo de aprendizaje automático, desde el análisis exploratorio hasta la evaluación de modelos, con especial enfoque en la clasificación de tumores como **benignos** o **malignos**.
+Predicción de cáncer de utilizando algoritmos de Machine Learning con el conjunto de datos de diagnóstico de cáncer de Wisconsin (WDBC). Este proyecto demuestra un flujo completo de aprendizaje automático, desde el análisis exploratorio hasta la evaluación de modelos, con especial enfoque en la clasificación de tumores como **benignos** o **malignos**.
 
 ---
 
